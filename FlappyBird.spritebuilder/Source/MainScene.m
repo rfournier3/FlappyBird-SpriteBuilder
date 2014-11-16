@@ -35,6 +35,12 @@
     CCNode *_bush2;
     NSArray *_bushes;
     
+    CGPoint _cloudParallaxRatio;
+    CGPoint _bushParallaxRatio;
+    
+    CCNode *_parallaxContainer;
+    CCParallaxNode *_parallaxBackground;
+    
     NSTimeInterval _sinceTouch;
     
     NSMutableArray *_obstacles;
